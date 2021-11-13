@@ -1,5 +1,5 @@
 # SmartPixels
-A Java Desktop App to search similar images using colors hitogram
+A Java Desktop App to search similar images using colors histogram
 
 ![Annotation 2019-12-30 214904](https://user-images.githubusercontent.com/48627888/141648433-e7059604-fa15-48fb-abc4-81fb6bcafdd6.jpg)
 ![Annotation 2019-12-30 214956](https://user-images.githubusercontent.com/48627888/141648492-8fb5f1cb-848b-488b-a14a-f80ead85221b.jpg)
