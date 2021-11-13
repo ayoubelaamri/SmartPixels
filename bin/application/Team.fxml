@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="502.0" prefWidth="474.0" stylesheets="@../../styles/landing.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="334.0" layoutY="11.0" onAction="#getLanding" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" text="Back  " textFill="#05012b">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/btnBack.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="399.0" layoutY="11.0" onAction="#Exit" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" text="Close" textFill="#05012b">
+         <graphic>
+            <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/btnClose2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="86.0" fitWidth="91.0" layoutX="81.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/team-1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="141.0" layoutY="124.0" text="Java Project Team" textAlignment="CENTER" textFill="#080249">
+         <font>
+            <Font name="Eras Bold ITC" size="21.0" />
+         </font>
+      </Label>
+      <Pane layoutX="23.0" layoutY="174.0" prefHeight="25.0" prefWidth="409.0">
+         <children>
+            <ImageView fitHeight="2.0" fitWidth="409.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/bigLine2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="181.0" layoutY="195.0" text="EL AAMRI AYOUB">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="216.0" text="Student Engineer on Computer Sciences" />
+      <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="182.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/facebook.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="215.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/linkedin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="248.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/twitter.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="23.0" layoutY="284.0" prefHeight="25.0" prefWidth="409.0">
+         <children>
+            <ImageView fitHeight="2.0" fitWidth="409.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/bigLine2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="23.0" layoutY="292.0" prefHeight="25.0" prefWidth="409.0">
+         <children>
+            <ImageView fitHeight="2.0" fitWidth="409.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/bigLine2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="86.0" fitWidth="91.0" layoutX="81.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/testimonial-5.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="181.0" layoutY="314.0" text="EL ABDELLAOUI ISMAIL">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="335.0" text="Student Engineer on Computer Sciences" />
+      <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="182.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/facebook.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="215.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/linkedin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="248.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/twitter.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="23.0" layoutY="404.0" prefHeight="25.0" prefWidth="409.0">
+         <children>
+            <ImageView fitHeight="2.0" fitWidth="409.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/bigLine2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</Pane>

@@ -1,0 +1,52 @@
+  .continer {
+ 	-fx-border-color: #05002b;
+  	-fx-border-size: 5px;
+ }
+ 
+ .mainBG {
+  -fx-background-image: url("../images/mainBG.png");
+ }
+
+ .menuBG {
+  -fx-background-image: url("../images/menuBG.png");
+ }
+ 
+ .menuBtns {
+ 	-fx-background-color: transparent;
+ }
+ 
+ .menuBtns:hover {
+ 	-fx-background-color: #43ca0b;
+ }
+ 
+ .btnGetStarted {
+ 	-fx-background-color: transparent;
+ 	-fx-background-radius: 20px;
+ 	-fx-border-color: #43ca0b;
+	-fx-border-radius: 20px;
+	-fx-border-width: 1px;
+
+ }
+ 
+ .btnGetStarted:hover {
+	-fx-background-color: #43ca0b;
+ 	-fx-background-radius: 20px;
+	-fx-border-color: #43ca0b;
+	-fx-border-radius: 20px;
+	-fx-border-width: 1px;
+ }
+ 
+ .btnSimple {
+ 	-fx-background-color: #05012b;
+	-fx-background-radius: 20px;
+	-fx-text-fill: #fff;
+ }
+ 
+  .btnSimple:hover {
+ 	-fx-background-color: transparent;
+	-fx-background-radius: 20px;
+ 	-fx-border-color: #05012b;
+	-fx-border-radius: 20px;
+	-fx-border-width: 1px;
+	-fx-text-fill: #05012b;
+ }

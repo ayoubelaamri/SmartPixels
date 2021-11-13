@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" styleClass="mainBG" stylesheets="@../../styles/landing.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="544.0" layoutX="81.0" layoutY="-86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="2.0" fitWidth="865.0" layoutX="65.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/bigLine.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="245.0" layoutY="427.0" text="Java Project 2019 - ENSA Hoceima " textFill="WHITE">
+         <font>
+            <Font name="Forte" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnGetStarted" buttonType="RAISED" focusTraversable="false" graphicTextGap="20.0" layoutX="281.0" layoutY="336.0" onAction="#GetStarted" prefHeight="37.0" prefWidth="149.0" ripplerFill="#43ca0b" styleClass="btnGetStarted" stylesheets="@../../styles/landing.css" text="Get Started" textAlignment="CENTER" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/getStartedBtn.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <Shadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="622.0" layoutY="8.0" onAction="#Exit" prefHeight="37.0" prefWidth="71.0" ripplerFill="#43ca0b" style="-fx-background-color: transparent; -fx-text-fill: #43ca0b;" text="Close" textFill="#43ca0b">
+         <graphic>
+            <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/btnClose.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
